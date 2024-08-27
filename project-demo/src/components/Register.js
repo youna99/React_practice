@@ -13,9 +13,17 @@ const Register = () => {
   const dispatch = useDispatch();
 
   const onSubmit = (data) => {
-    // Redux 상태에 데이터를 저장
+    // data: 폼의 모든 입력 필드 값을 포함
+    // data 객체의 각 치를 순회하면서 해당 필드 값을 Redux 상태에 저장
     Object.keys(data).forEach((key) => {
+      // Object.keys(): 주어진 객체의 속성 이름들을
+      // 일반적인 반복문과 동일한 순서로 순회되는 열거할 수 있는 배열로 반환
+      // 객체를 순회하면서 속성 키를 배열로 반환
+
+      // currentUser 필드에 각 입력값을 설정
       dispatch(setUserField({ field: key, value: data[key] }));
+      // key: 현재 프로퍼티 이름(email, passward ...)
+      // data[key]: key에 해당하는 값(data[email] = example@gmail.com)
     });
 
     // 사용자 등록
