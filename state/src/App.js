@@ -1,18 +1,19 @@
 import "./App.css";
 import Message from "./Message";
 import NameInput from "./NameInput";
+import Profile from "./Profile";
 import Select from "./Select";
 
 function App() {
   return (
     <div className="App">
-      <NameInput />
-      <hr />
+      {/* <NameInput /> */}
 
-      <Message />
-      <hr />
+      {/* <Message /> */}
 
-      <Select />
+      {/* <Select /> */}
+
+      <Profile />
     </div>
   );
 }
