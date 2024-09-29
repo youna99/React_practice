@@ -10,9 +10,9 @@ const CardList = () => {
           <ul key={data.id} className="item">
             <img src={data.image[0]} alt={data.id} className="image" />
             <div className="info">
-              <p>{data.name}</p>
-              <p>{data.jname}</p>
-              <p>{data.age}</p>
+              <p>이름: {data.name}</p>
+              <p>일본 이름: {data.jname}</p>
+              <p>나이: {data.age}</p>
             </div>
           </ul>
         ))}

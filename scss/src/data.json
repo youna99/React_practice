@@ -17,48 +17,106 @@
       "age": 17,
       "jname": "쿠도 신이치",
       "image":[
-        "/images/2-1.webp"
+        "/images/2-1.webp",
+        "/images/2-2.jpeg",
+        "/images/2-3.jpeg"
       ],
       "description": "고등학생 탐정이자 코난의 본래 모습. 추리 실력이 뛰어남."
     },
     {
         "id": 3,
-        "name": "미란",
+        "name": "유미란",
+        "age": 17,
+        "jname": "모리 란",
+        "image": [
+          "/images/3-1.webp",
+          "/images/3-2.jpeg",
+          "/images/3-3.jpeg"
+        ],
         "description": "남도일의 소꿉친구이자 유도 선수. 남도일을 기다리고 있음."
       },
       {
         "id": 4,
         "name": "유명한",
+        "age": 38,
+        "jname": "모리 코고로",
+        "image":[
+          "/images/4-1.webp",
+          "/images/4-2.webp",
+          "/images/4-3.jpeg"
+        ],
         "description": "미란의 아버지이자 명탐정으로 불리지만 실상은 코난이 수사 도움을 줌."
       },
       {
         "id": 5,
         "name": "괴도 키드",
+        "age": 17,
+        "jname": "괴도 키드",
+        "image":[
+          "/images/5-1.webp",
+          "/images/5-2.jpeg",
+          "/images/5-3.jpeg"
+        ],
         "description": "세계적인 도둑으로, 화려한 도둑질을 자랑하지만 정의감도 있음."
       },
       {
         "id": 6,
         "name": "진",
+        "age": "불명",
+        "jname": "쿠로사와 진",
+        "image":[
+          "/images/6-1.webp",
+          "/images/6-2.webp",
+          "/images/6-3.webp"
+        ],
         "description": "검은 조직의 고위 간부로, 코난이 변하게 된 사건의 주범."
       },
       {
         "id": 7,
         "name": "워커",
+        "age": "불명",
+        "jname": "보드카",
+        "image": [
+          "/images/7-1.webp",
+          "/images/7-2.jpeg",
+          "/images/7-1.jpeg"
+        ],
         "description": "검은 조직의 일원으로 진과 함께 다니며 일을 처리함."
       },
       {
         "id": 8,
         "name": "베르무트",
+        "age": 29,
+        "jname": "베르무트",
+        "image":[
+          "/images/8-1.webp",
+          "/images/8-2.webp",
+          "/images/8-3.webp"
+        ],
         "description": "검은 조직의 수수께끼 같은 일원으로 변장을 능숙하게 함."
       },
       {
         "id": 9,
         "name": "버번",
+        "age": 29,
+        "jname": "아무로 토오루",
+        "image":[
+          "/images/9-1.jpeg",
+          "/images/9-2.webp",
+          "/images/9-3.jpeg"
+        ],
         "description": "검은 조직의 일원으로 스파이 활동을 하고 있으며, 진실을 찾으려는 사람."
       },
       {
         "id": 10,
         "name": "키르",
+        "age": 27,
+        "jname":"미즈나시 레나",
+        "image":[
+          "/images/10-1.webp",
+          "/images/10-2.jpeg",
+          "/images/10-3.jpeg"
+        ],
         "description": "검은 조직의 일원으로 이중 스파이이며, FBI와 협력하고 있음."
       }
   ]

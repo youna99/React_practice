@@ -1,3 +1,5 @@
+@use "./utils";
+
 .header {
     height: 50px;
     display: flex;
@@ -35,4 +37,31 @@
         }
     }
     
+}
+
+.header {
+    // Header 스타일 작성
+    @include utils.mobile {
+        height: 40px;
+    }
+
+    .logo {
+        @include utils.mobile {
+            left: 2%;
+        }
+    }
+
+    .search {
+        @include utils.mobile {
+            margin-left: 65px;
+        }
+        .input {
+            @include utils.mobile {
+                width: 205px;   
+                border: 1px solid #ccc;
+                border-radius: 4px;     
+            }
+        }
+
+    }
 }

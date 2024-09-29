@@ -1,0 +1,6 @@
+// 모바일 화면일 때 (480px 이하일 때 적용할 코드)
+@mixin mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
